@@ -8,10 +8,10 @@ king = "fas fa-chess-king"
  */
 
 const rows = ['A','B','C','D','E','F','G','H']
-let boardSquares = {}
+let Sq = {}
 for (let i=1;i<9;i++){
     for (let r=0;r<8;r++){
-        boardSquares[`${rows[r]}${i}`] = document.querySelector(`.${rows[r]}${i}`)
+        Sq[`${rows[r]}${i}`] = document.querySelector(`.${rows[r]}${i}`)
     }
 }
 
