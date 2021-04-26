@@ -1,14 +1,14 @@
 class chessBoard{
     constructor(){
         this.board = [
-            [[],['B1'],['C1'],['D1'],['E1'],['F1'],['G1'],['H1']],
-            [[],['B2'],['C2'],['D2'],['E2'],['F2'],['G2'],['H2']],
-            [[],['B3'],['C3'],['D3'],['E3'],['F3'],['G3'],['H3']],
-            [[],['B4'],['C4'],['D4'],['E4'],['F4'],['G4'],['H4']],
-            [[],['B5'],['C5'],['D5'],['E5'],['F5'],['G5'],['H5']],
-            [[],['B6'],['C6'],['D6'],['E6'],['F6'],['G6'],['H6']],
-            [[],['B7'],['C7'],['D7'],['E7'],['F7'],['G7'],['H7']],
-            [[],['B8'],['C8'],['D8'],['E8'],['F8'],['G8'],['H8']]
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]],
+            [[],[],[],[],[],[],[],[]]
         ]
         this.pos = {
             A1:this.board[1][1],
@@ -19,6 +19,69 @@ class chessBoard{
             A6:this.board[6][1],
             A7:this.board[7][1],
             A8:this.board[8][1],
+
+            B1:this.board[1][2],
+            B2:this.board[2][2],
+            B3:this.board[3][2],
+            B4:this.board[4][2],
+            B5:this.board[5][2],
+            B6:this.board[6][2],
+            B7:this.board[7][2],
+            B8:this.board[8][2],
+
+            C1:this.board[1][3],
+            C2:this.board[2][3],
+            C3:this.board[3][3],
+            C4:this.board[4][3],
+            C5:this.board[5][3],
+            C6:this.board[6][3],
+            C7:this.board[7][3],
+            C8:this.board[8][3],
+
+            D1:this.board[1][4],
+            D2:this.board[2][4],
+            D3:this.board[3][4],
+            D4:this.board[4][4],
+            D5:this.board[5][4],
+            D6:this.board[6][4],
+            D7:this.board[7][4],
+            D8:this.board[8][4],
+
+            E1:this.board[1][5],
+            E2:this.board[2][5],
+            E3:this.board[3][5],
+            E4:this.board[4][5],
+            E5:this.board[5][5],
+            E6:this.board[6][5],
+            E7:this.board[7][5],
+            E8:this.board[8][5],
+
+            F1:this.board[1][6],
+            F2:this.board[2][6],
+            F3:this.board[3][6],
+            F4:this.board[4][6],
+            F5:this.board[5][6],
+            F6:this.board[6][6],
+            F7:this.board[7][6],
+            F8:this.board[8][6],
+
+            G1:this.board[1][7],
+            G2:this.board[2][7],
+            G3:this.board[3][7],
+            G4:this.board[4][7],
+            G5:this.board[5][7],
+            G6:this.board[6][7],
+            G7:this.board[7][7],
+            G8:this.board[8][7],
+
+            H1:this.board[1][8],
+            H2:this.board[2][8],
+            H3:this.board[3][8],
+            H4:this.board[4][8],
+            H5:this.board[5][8],
+            H6:this.board[6][8],
+            H7:this.board[8][8],
+            H8:this.board[9][8],
         }
         
     };

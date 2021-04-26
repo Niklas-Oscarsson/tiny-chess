@@ -40,6 +40,7 @@ export default {
     let pawns=[]
       for(let i=0; i<8; i++){
         pawns[i] = new pawn(i,2)
+        console.log(pawns);
       }
   },
 }
